@@ -1,10 +1,4 @@
-name: cam_lidar
-channels:
-    - defaults
-    - conda-forge
-dependencies:
-    - python=3.7.*
-    - anaconda
-    - open3d
-    - pip:
-        - opencv-python
+numpy
+open3d
+matplotlib
+opencv-python
