@@ -4,7 +4,9 @@ This code is used to explain the post [here](https://medium.com/@daryl.tanyj/cam
 ## Dependency Installation
 Assuming you have installed anaconda. Get all dependencies with
 ```
-conda env create -f requirement.text 
+conda create --name projection python=3.8 -y
+conda activate projection
+pip install -r requirements.txt
 ```
 
 ## How to use
